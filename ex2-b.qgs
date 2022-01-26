@@ -1,0 +1,2719 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.22.3-Białowieża" saveUserFull="Maryam" saveDateTime="2022-01-25T22:42:58" projectname="" saveUser="Maryam">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area",BASEGEOGCRS["GCS_Sphere_ARC_INFO",DATUM["D_Sphere_ARC_INFO",ELLIPSOID["Sphere_ARC_INFO",6370997,0,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Lambert Azimuthal Equal Area (Spherical)",ID["EPSG",1027]],PARAMETER["Latitude of natural origin",45,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-100,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]</wkt>
+      <proj4>+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs +type=crs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description>Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area</description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym>PARAMETER:6370997:6370997</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer name="LA 558 - five natural places - natural places-2" patch_size="-1,-1" legend_exp="" source="../LA558_2022_Github/gisData/class/LA 558 - five natural places - natural places-2.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=longitude&amp;yField=latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked" providerKey="delimitedtext" id="LA_558___five_natural_places___natural_places_2_765e8aee_da54_404b_920f_621d8c77f27f" legend_split_behavior="0" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="lakes" patch_size="-1,-1" legend_exp="" source="../LA558_2022_Github/gisData/National-Regional/lakes.shp" checked="Qt::Checked" providerKey="ogr" id="lakes_2d76beba_ff11_4091_9a69_4a0aada683cf" legend_split_behavior="0" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="states_visited" patch_size="-1,-1" legend_exp="" source="./states_visited.shp" checked="Qt::Checked" providerKey="ogr" id="states_visited_b345f428_b438_43f7_bf17_4f53d07d461e" legend_split_behavior="0" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer name="boundary_p_v2" patch_size="-1,-1" legend_exp="" source="../LA558_2022_Github/gisData/World/North America with states province boundaries/boundary_p_v2.shp" checked="Qt::Unchecked" providerKey="ogr" id="boundary_p_v2_63e67194_9a54_45fe_9733_ce6412f46adf" legend_split_behavior="0" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>boundary_p_v2_63e67194_9a54_45fe_9733_ce6412f46adf</item>
+      <item>lakes_2d76beba_ff11_4091_9a69_4a0aada683cf</item>
+      <item>LA_558___five_natural_places___natural_places_2_765e8aee_da54_404b_920f_621d8c77f27f</item>
+      <item>states_visited_b345f428_b438_43f7_bf17_4f53d07d461e</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" intersection-snapping="0" self-snapping="0" tolerance="12" type="1" maxScale="0" scaleDependencyMode="0" mode="2" unit="1" minScale="0">
+    <individual-layer-settings>
+      <layer-setting enabled="0" tolerance="12" id="lakes_2d76beba_ff11_4091_9a69_4a0aada683cf" type="1" maxScale="0" units="1" minScale="0"/>
+      <layer-setting enabled="0" tolerance="12" id="LA_558___five_natural_places___natural_places_2_765e8aee_da54_404b_920f_621d8c77f27f" type="1" maxScale="0" units="1" minScale="0"/>
+      <layer-setting enabled="0" tolerance="12" id="boundary_p_v2_63e67194_9a54_45fe_9733_ce6412f46adf" type="1" maxScale="0" units="1" minScale="0"/>
+      <layer-setting enabled="0" tolerance="12" id="states_visited_b345f428_b438_43f7_bf17_4f53d07d461e" type="1" maxScale="0" units="1" minScale="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>-3044510.58419238636270165</xmin>
+      <ymin>-4269743.38014124892652035</ymin>
+      <xmax>3207661.63872637739405036</xmax>
+      <ymax>1962705.46705264039337635</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area",BASEGEOGCRS["GCS_Sphere_ARC_INFO",DATUM["D_Sphere_ARC_INFO",ELLIPSOID["Sphere_ARC_INFO",6370997,0,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Lambert Azimuthal Equal Area (Spherical)",ID["EPSG",1027]],PARAMETER["Latitude of natural origin",45,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-100,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]</wkt>
+        <proj4>+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs +type=crs</proj4>
+        <srsid>0</srsid>
+        <srid>0</srid>
+        <authid></authid>
+        <description>Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area</description>
+        <projectionacronym></projectionacronym>
+        <ellipsoidacronym>PARAMETER:6370997:6370997</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="LA 558 - five natural places - natural places-2" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="LA_558___five_natural_places___natural_places_2_765e8aee_da54_404b_920f_621d8c77f27f" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="lakes" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="lakes_2d76beba_ff11_4091_9a69_4a0aada683cf" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="states_visited" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="states_visited_b345f428_b438_43f7_bf17_4f53d07d461e" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="boundary_p_v2" checked="Qt::Unchecked" showFeatureCount="0" open="true" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="boundary_p_v2_63e67194_9a54_45fe_9733_ce6412f46adf" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <main-annotation-layer refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" autoRefreshEnabled="0" type="annotation" legendPlaceholderImage="" autoRefreshTime="0">
+    <id>Annotations_45618aa9_172d_431e_b9a9_66d539dd749c</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer refreshOnNotifyEnabled="0" geometry="Point" symbologyReferenceScale="-1" wkbType="Point" autoRefreshTime="0" simplifyAlgorithm="0" labelsEnabled="0" legendPlaceholderImage="" autoRefreshEnabled="0" minScale="100000000" readOnly="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" maxScale="0" type="vector">
+      <extent>
+        <xmin>-157.85833299999998758</xmin>
+        <ymin>-64.73333300000000179</ymin>
+        <xmax>124.00459999999999638</xmax>
+        <ymax>79.8333329999999961</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-157.85833299999998758</xmin>
+        <ymin>-64.73333300000000179</ymin>
+        <xmax>124.00459999999999638</xmax>
+        <ymax>79.8333329999999961</ymax>
+      </wgs84extent>
+      <id>LA_558___five_natural_places___natural_places_2_765e8aee_da54_404b_920f_621d8c77f27f</id>
+      <datasource>file:../LA558_2022_Github/gisData/class/LA%20558%20-%20five%20natural%20places%20-%20natural%20places-2.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;xField=longitude&amp;yField=latitude&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>LA 558 - five natural places - natural places-2</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" maxy="0" minz="0" maxx="0" crs="" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields>
+        <field name="Visited" expression="'no'" type="10" typeName="string" length="0" comment="" precision="0" subType="0"/>
+      </expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" startExpression="" endExpression="" durationField="" fixedDuration="0" endField="" durationUnit="min" startField="" mode="0" limitMode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" enableorderby="0" type="singleSymbol" referencescale="-1" symbollevels="0">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" force_rhr="0" type="marker" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+              <Option type="Map">
+                <Option name="angle" value="0" type="QString"/>
+                <Option name="cap_style" value="square" type="QString"/>
+                <Option name="color" value="253,251,111,255" type="QString"/>
+                <Option name="horizontal_anchor_point" value="1" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="name" value="circle" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="0,0,0,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.4" type="QString"/>
+                <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="scale_method" value="diameter" type="QString"/>
+                <Option name="size" value="1" type="QString"/>
+                <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="size_unit" value="MM" type="QString"/>
+                <Option name="vertical_anchor_point" value="1" type="QString"/>
+              </Option>
+              <prop k="angle" v="0"/>
+              <prop k="cap_style" v="square"/>
+              <prop k="color" v="253,251,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="1"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option value="&quot;traveler&quot;" type="QString"/>
+          </Option>
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" width="15" direction="0" minimumSize="0" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" barWidth="5" height="15" spacingUnit="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" spacing="5" diagramOrientation="Up" penColor="#000000" backgroundAlpha="255" sizeType="MM" rotationOffset="270" scaleDependency="Area" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="1" opacity="1" maxScaleDenominator="1e+08" lineSizeType="MM" enabled="0" penAlpha="255" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,7.875,-1,5,50,0,0,0,0,0" style=""/>
+          <axisSymbol>
+            <symbol name="" clip_to_extent="1" force_rhr="0" type="line" alpha="1">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" value="0" type="QString"/>
+                  <Option name="capstyle" value="square" type="QString"/>
+                  <Option name="customdash" value="5;2" type="QString"/>
+                  <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="customdash_unit" value="MM" type="QString"/>
+                  <Option name="dash_pattern_offset" value="0" type="QString"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                  <Option name="draw_inside_polygon" value="0" type="QString"/>
+                  <Option name="joinstyle" value="bevel" type="QString"/>
+                  <Option name="line_color" value="35,35,35,255" type="QString"/>
+                  <Option name="line_style" value="solid" type="QString"/>
+                  <Option name="line_width" value="0.26" type="QString"/>
+                  <Option name="line_width_unit" value="MM" type="QString"/>
+                  <Option name="offset" value="0" type="QString"/>
+                  <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="offset_unit" value="MM" type="QString"/>
+                  <Option name="ring_filter" value="0" type="QString"/>
+                  <Option name="trim_distance_end" value="0" type="QString"/>
+                  <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                  <Option name="trim_distance_start" value="0" type="QString"/>
+                  <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                  <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                  <Option name="use_custom_dash" value="0" type="QString"/>
+                  <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                </Option>
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="trim_distance_end" v="0"/>
+                <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_end_unit" v="MM"/>
+                <prop k="trim_distance_start" v="0"/>
+                <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_start_unit" v="MM"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" value="" type="QString"/>
+                    <Option name="properties"/>
+                    <Option name="type" value="collection" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" showAll="1" priority="0" obstacle="0" dist="0" placement="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="traveler">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="place">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="city">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="state_provience">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Country">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="month">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="latitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="longitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Visited">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="traveler" index="0"/>
+        <alias name="" field="place" index="1"/>
+        <alias name="" field="city" index="2"/>
+        <alias name="" field="state_provience" index="3"/>
+        <alias name="" field="Country" index="4"/>
+        <alias name="" field="month" index="5"/>
+        <alias name="" field="latitude" index="6"/>
+        <alias name="" field="longitude" index="7"/>
+        <alias name="" field="Visited" index="8"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="traveler"/>
+        <default expression="" applyOnUpdate="0" field="place"/>
+        <default expression="" applyOnUpdate="0" field="city"/>
+        <default expression="" applyOnUpdate="0" field="state_provience"/>
+        <default expression="" applyOnUpdate="0" field="Country"/>
+        <default expression="" applyOnUpdate="0" field="month"/>
+        <default expression="" applyOnUpdate="0" field="latitude"/>
+        <default expression="" applyOnUpdate="0" field="longitude"/>
+        <default expression="" applyOnUpdate="0" field="Visited"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="traveler" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="place" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="city" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="state_provience" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="Country" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="month" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="latitude" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="longitude" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="Visited" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="traveler" desc=""/>
+        <constraint exp="" field="place" desc=""/>
+        <constraint exp="" field="city" desc=""/>
+        <constraint exp="" field="state_provience" desc=""/>
+        <constraint exp="" field="Country" desc=""/>
+        <constraint exp="" field="month" desc=""/>
+        <constraint exp="" field="latitude" desc=""/>
+        <constraint exp="" field="longitude" desc=""/>
+        <constraint exp="" field="Visited" desc=""/>
+      </constraintExpressions>
+      <expressionfields>
+        <field name="Visited" expression="'no'" type="10" typeName="string" length="0" comment="" precision="0" subType="0"/>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="traveler" width="-1" type="field" hidden="0"/>
+          <column name="place" width="-1" type="field" hidden="0"/>
+          <column name="city" width="-1" type="field" hidden="0"/>
+          <column name="state_provience" width="-1" type="field" hidden="0"/>
+          <column name="Country" width="-1" type="field" hidden="0"/>
+          <column name="month" width="-1" type="field" hidden="0"/>
+          <column name="latitude" width="-1" type="field" hidden="0"/>
+          <column name="longitude" width="-1" type="field" hidden="0"/>
+          <column name="Visited" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Country" editable="1"/>
+        <field name="Visited" editable="0"/>
+        <field name="city" editable="1"/>
+        <field name="latitude" editable="1"/>
+        <field name="longitude" editable="1"/>
+        <field name="month" editable="1"/>
+        <field name="place" editable="1"/>
+        <field name="state_provience" editable="1"/>
+        <field name="traveler" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Country" labelOnTop="0"/>
+        <field name="Visited" labelOnTop="0"/>
+        <field name="city" labelOnTop="0"/>
+        <field name="latitude" labelOnTop="0"/>
+        <field name="longitude" labelOnTop="0"/>
+        <field name="month" labelOnTop="0"/>
+        <field name="place" labelOnTop="0"/>
+        <field name="state_provience" labelOnTop="0"/>
+        <field name="traveler" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="Country" reuseLastValue="0"/>
+        <field name="Visited" reuseLastValue="0"/>
+        <field name="city" reuseLastValue="0"/>
+        <field name="latitude" reuseLastValue="0"/>
+        <field name="longitude" reuseLastValue="0"/>
+        <field name="month" reuseLastValue="0"/>
+        <field name="place" reuseLastValue="0"/>
+        <field name="state_provience" reuseLastValue="0"/>
+        <field name="traveler" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"traveler"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" geometry="Polygon" symbologyReferenceScale="-1" wkbType="MultiPolygon" autoRefreshTime="0" simplifyAlgorithm="0" labelsEnabled="0" legendPlaceholderImage="" autoRefreshEnabled="0" minScale="100000000" readOnly="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" maxScale="0" type="vector">
+      <extent>
+        <xmin>-5761944.99469999969005585</xmin>
+        <ymin>-3914227.99330000020563602</ymin>
+        <xmax>4400245.5146000012755394</xmax>
+        <ymax>4802367.75549999997019768</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-179.61382602118064256</xmin>
+        <ymin>-4.54865141963671071</ymin>
+        <xmax>179.7734858559165616</xmax>
+        <ymax>89.00526714701398134</ymax>
+      </wgs84extent>
+      <id>boundary_p_v2_63e67194_9a54_45fe_9733_ce6412f46adf</id>
+      <datasource>../LA558_2022_Github/gisData/World/North America with states province boundaries/boundary_p_v2.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>boundary_p_v2</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area",BASEGEOGCRS["GCS_Sphere_ARC_INFO",DATUM["D_Sphere_ARC_INFO",ELLIPSOID["Sphere_ARC_INFO",6370997,0,LENGTHUNIT["metre",1,ID["EPSG",9001]]]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["unnamed",METHOD["Lambert Azimuthal Equal Area (Spherical)",ID["EPSG",1027]],PARAMETER["Latitude of natural origin",45,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-100,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1,ID["EPSG",9001]]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1,ID["EPSG",9001]]]]</wkt>
+          <proj4>+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description>Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area</description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6370997:6370997</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>boundary_p_v2</identifier>
+        <parentidentifier></parentidentifier>
+        <language>EN</language>
+        <type>dataset</type>
+        <title>boundary_p_v2</title>
+        <abstract>REQUIRED: A brief narrative summary of the data set.
+
+REQUIRED: A summary of the intentions with which the data set was developed.</abstract>
+        <keywords vocabulary="gmd:topicCategory">
+          <keyword>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</keyword>
+        </keywords>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links>
+          <link name="Shapefile" size="" mimeType="" description="" format="" type="Local Area Network" url="file://\\File\Maps\CECGIS\ENGLISH\_in_progress\Basemap_Geodatabase\Shapefiles_of_Basemap_layers\Extracted from updated Geodatabase, May 27 2010\boundary_p_v2.shp"/>
+        </links>
+        <fees></fees>
+        <constraints type="Access">REQUIRED: Restrictions and legal prerequisites for accessing the data set.</constraints>
+        <rights>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</rights>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" maxy="4907000" minz="0" maxx="4462000.00549999997019768" crs="EPSG:4326" miny="-3920000.0063999998383224" minx="-5835000"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" startExpression="" endExpression="" durationField="" fixedDuration="0" endField="" durationUnit="min" startField="" mode="0" limitMode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" enableorderby="0" type="singleSymbol" referencescale="-1" symbollevels="0">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="255,255,255,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" width="15" direction="0" minimumSize="0" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" barWidth="5" height="15" spacingUnit="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" spacing="5" diagramOrientation="Up" penColor="#000000" backgroundAlpha="255" sizeType="MM" rotationOffset="270" scaleDependency="Area" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="1" opacity="1" maxScaleDenominator="1e+08" lineSizeType="MM" enabled="0" penAlpha="255" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,7.875,-1,5,50,0,0,0,0,0" style=""/>
+          <axisSymbol>
+            <symbol name="" clip_to_extent="1" force_rhr="0" type="line" alpha="1">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" value="0" type="QString"/>
+                  <Option name="capstyle" value="square" type="QString"/>
+                  <Option name="customdash" value="5;2" type="QString"/>
+                  <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="customdash_unit" value="MM" type="QString"/>
+                  <Option name="dash_pattern_offset" value="0" type="QString"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                  <Option name="draw_inside_polygon" value="0" type="QString"/>
+                  <Option name="joinstyle" value="bevel" type="QString"/>
+                  <Option name="line_color" value="35,35,35,255" type="QString"/>
+                  <Option name="line_style" value="solid" type="QString"/>
+                  <Option name="line_width" value="0.26" type="QString"/>
+                  <Option name="line_width_unit" value="MM" type="QString"/>
+                  <Option name="offset" value="0" type="QString"/>
+                  <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="offset_unit" value="MM" type="QString"/>
+                  <Option name="ring_filter" value="0" type="QString"/>
+                  <Option name="trim_distance_end" value="0" type="QString"/>
+                  <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                  <Option name="trim_distance_start" value="0" type="QString"/>
+                  <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                  <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                  <Option name="use_custom_dash" value="0" type="QString"/>
+                  <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                </Option>
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="trim_distance_end" v="0"/>
+                <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_end_unit" v="MM"/>
+                <prop k="trim_distance_start" v="0"/>
+                <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_start_unit" v="MM"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" value="" type="QString"/>
+                    <Option name="properties"/>
+                    <Option name="type" value="collection" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" showAll="1" priority="0" obstacle="0" dist="0" placement="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" value="0" type="double"/>
+            <Option name="allowedGapsEnabled" value="false" type="bool"/>
+            <Option name="allowedGapsLayer" value="" type="QString"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="UIDENT">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="COUNTRY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="STATEABB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="EDIT_DATE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="EDIT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="UIDENT" index="0"/>
+        <alias name="" field="NAME" index="1"/>
+        <alias name="" field="COUNTRY" index="2"/>
+        <alias name="" field="STATEABB" index="3"/>
+        <alias name="" field="EDIT_DATE" index="4"/>
+        <alias name="" field="EDIT" index="5"/>
+        <alias name="" field="Shape_Leng" index="6"/>
+        <alias name="" field="Shape_Area" index="7"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="UIDENT"/>
+        <default expression="" applyOnUpdate="0" field="NAME"/>
+        <default expression="" applyOnUpdate="0" field="COUNTRY"/>
+        <default expression="" applyOnUpdate="0" field="STATEABB"/>
+        <default expression="" applyOnUpdate="0" field="EDIT_DATE"/>
+        <default expression="" applyOnUpdate="0" field="EDIT"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Leng"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Area"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="UIDENT" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="NAME" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="COUNTRY" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="STATEABB" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="EDIT_DATE" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="EDIT" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="Shape_Leng" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="Shape_Area" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="UIDENT" desc=""/>
+        <constraint exp="" field="NAME" desc=""/>
+        <constraint exp="" field="COUNTRY" desc=""/>
+        <constraint exp="" field="STATEABB" desc=""/>
+        <constraint exp="" field="EDIT_DATE" desc=""/>
+        <constraint exp="" field="EDIT" desc=""/>
+        <constraint exp="" field="Shape_Leng" desc=""/>
+        <constraint exp="" field="Shape_Area" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="UIDENT" width="-1" type="field" hidden="0"/>
+          <column name="NAME" width="-1" type="field" hidden="0"/>
+          <column name="COUNTRY" width="-1" type="field" hidden="0"/>
+          <column name="STATEABB" width="-1" type="field" hidden="0"/>
+          <column name="EDIT_DATE" width="-1" type="field" hidden="0"/>
+          <column name="EDIT" width="-1" type="field" hidden="0"/>
+          <column name="Shape_Leng" width="-1" type="field" hidden="0"/>
+          <column name="Shape_Area" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="COUNTRY" editable="1"/>
+        <field name="EDIT" editable="1"/>
+        <field name="EDIT_DATE" editable="1"/>
+        <field name="NAME" editable="1"/>
+        <field name="STATEABB" editable="1"/>
+        <field name="Shape_Area" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="UIDENT" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="COUNTRY" labelOnTop="0"/>
+        <field name="EDIT" labelOnTop="0"/>
+        <field name="EDIT_DATE" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+        <field name="STATEABB" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="UIDENT" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="COUNTRY" reuseLastValue="0"/>
+        <field name="EDIT" reuseLastValue="0"/>
+        <field name="EDIT_DATE" reuseLastValue="0"/>
+        <field name="NAME" reuseLastValue="0"/>
+        <field name="STATEABB" reuseLastValue="0"/>
+        <field name="Shape_Area" reuseLastValue="0"/>
+        <field name="Shape_Leng" reuseLastValue="0"/>
+        <field name="UIDENT" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" geometry="Polygon" symbologyReferenceScale="-1" wkbType="MultiPolygon" autoRefreshTime="0" simplifyAlgorithm="0" labelsEnabled="0" legendPlaceholderImage="" autoRefreshEnabled="0" minScale="100000000" readOnly="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" maxScale="0" type="vector">
+      <extent>
+        <xmin>-1863812.3737693359144032</xmin>
+        <ymin>3010644.31469985423609614</ymin>
+        <xmax>2261382.96078223129734397</xmax>
+        <ymax>5539470.84741451032459736</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-123.4955777052567214</xmin>
+        <ymin>25.31103009196400322</ymin>
+        <xmax>-69.5168938090603632</xmax>
+        <ymax>50.00750021945837176</ymax>
+      </wgs84extent>
+      <id>lakes_2d76beba_ff11_4091_9a69_4a0aada683cf</id>
+      <datasource>../LA558_2022_Github/gisData/National-Regional/lakes.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lakes</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / UTM zone 15N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 15N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-93,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 96°W and 90°W - onshore and offshore. Canada - Manitoba; Nunavut; Ontario. United States (USA) - Arkansas; Illinois; Iowa; Kansas; Louisiana; Michigan; Minnesota; Mississippi; Missouri; Nebraska; Oklahoma; Tennessee; Texas; Wisconsin."],BBOX[25.61,-96,84,-90]],ID["EPSG",26915]]</wkt>
+          <proj4>+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2292</srsid>
+          <srid>26915</srid>
+          <authid>EPSG:26915</authid>
+          <description>NAD83 / UTM zone 15N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>esri_lakes</identifier>
+        <parentidentifier></parentidentifier>
+        <language>EN</language>
+        <type>dataset</type>
+        <title>esri_lakes</title>
+        <abstract>U.S. Lakes (Generalized) represents the major lakes within United States.
+
+U.S. Lakes (Generalized) provides a base map layer of major lakes of United States.
+
+Largest scale when displaying the data: 1:5,000,000. This is an ESRI dataset that was reprojected to UTM NAD 83 Zone 15N by Iowa DNR.</abstract>
+        <keywords vocabulary="gmd:topicCategory">
+          <keyword>polygon</keyword>
+        </keywords>
+        <contact>
+          <contactAddress>
+            <type>mailing and physical address</type>
+            <address>502 E. 9th St.</address>
+            <city>Des Moines</city>
+            <administrativearea>Iowa</administrativearea>
+            <postalcode>50319</postalcode>
+            <country>USA</country>
+          </contactAddress>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice>515-281-5843</voice>
+          <fax></fax>
+          <email>cam.conrad@dnr.state.ia.us</email>
+          <role>Point of contact</role>
+        </contact>
+        <links>
+          <link name="Shapefile" size="" mimeType="" description="" format="" type="Local Area Network" url="file://\\DGRLGM71\C$\Essential GIS\Data\National-Regional\lakes"/>
+        </links>
+        <fees></fees>
+        <constraints type="Access">Access granted to Licensee only.</constraints>
+        <rights>The data are provided by multiple, third party data vendors under license to ESRI for inclusion on ESRI Data &amp; Maps CD–ROMs for use with ESRI® software. Each data vendor has its own data licensing policies and may grant varying redistribution rights to end users. Please consult the redistribution rights below for this data set provided on ESRI Data &amp; Maps CD–ROMs. As used herein, “Geodata” shall mean any digital data set consisting of geographic data coordinates and associated attributes. The redistribution rights for this data set: Redistribution rights are granted by the data vendor for hard-copy renditions or static, electronic map images (e.g. .gif, .jpeg, etc.) that are plotted, printed, or publicly displayed with proper metadata and source/copyright attribution to the respective data vendor(s). Geodata is redistributable with a Value-Added Software Application developed by ESRI Business Partners on a royalty-free basis with proper metadata and source/copyright attribution to the respective data vendor(s). Geodata is redistributable without a Value-Added Software Application (i.e., adding the sample data to an existing, [non]commercial data set for redistribution) with proper metadata and source/copyright attribution to the respective data vendor(s). The terms and conditions below apply to all the data sets provided on the ESRI Data &amp; Maps CD–ROMs. Proprietary Rights and Copyright: Licensee acknowledges that the Data and Related Materials contain proprietary and confidential property of ESRI and its licensor(s). The Data and Related Materials are owned by ESRI and its licensor(s) and are protected by United States copyright laws and applicable international copyright treaties and/or conventions. Limited Warranty and Disclaimer: ESRI warrants that the media upon which the Data and Related Materials are provided will be free from defects in materials and workmanship under normal use and service for a period of ninety (90) days from the date of receipt. THE DATA AND RELATED MATERIALS ARE EXCLUDED FROM THE LIMITED WARRANTY, AND THE LICENSEE EXPRESSLY ACKNOWLEDGES THAT THE DATA CONTAINS SOME NONCONFORMITIES, DEFECTS, OR ERRORS. ESRI DOES NOT WARRANT THAT THE DATA WILL MEET LICENSEE'S NEEDS OR EXPECTATIONS; THAT THE USE OF THE DATA WILL BE UNINTERRUPTED; OR THAT ALL NONCONFORMITIES, DEFECTS, OR ERRORS CAN OR WILL BE CORRECTED. ESRI IS NOT INVITING RELIANCE ON THIS DATA, AND THE LICENSEE SHOULD ALWAYS VERIFY ACTUAL DATA. EXCEPT FOR THE LIMITED WARRANTY SET FORTH ABOVE, THE DATA AND RELATED MATERIALS CONTAINED THEREIN ARE PROVIDED "AS-IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Exclusive Remedy and Limitation of Liability: The entire liability of ESRI or its licensor(s) and Licensee's exclusive remedy shall be to terminate the Agreement upon Licensee returning the Data and Related Materials to ESRI with a copy of Licensee's invoice/receipt and ESRI returning the license fees paid to Licensee. IN NO EVENT SHALL ESRI AND/OR ITS LICENSOR(S) BE LIABLE FOR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOST PROFITS, LOST SALES, OR BUSINESS EXPENDITURES, INVESTMENTS, OR COMMITMENTS IN CONNECTION WITH ANY BUSINESS; LOSS OF ANY GOODWILL; OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT OR USE OF THE DATA AND RELATED MATERIALS, HOWEVER CAUSED, ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT ESRI OR ITS LICENSOR(S) HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY EXCLUSIVE REMEDY. Third Party Beneficiary: ESRI's licensor(s) has (have) authorized ESRI to (sub)distribute and (sub)license its (their) data as incorporated into the Data and Related Materials. As an intended third party beneficiary to this Agreement, the ESRI licensor(s) is (are) entitled to directly enforce, in its own name, the rights and obligations undertaken by the Licensee and to seek all legal and equitable remedies as are afforded to ESRI. In the event that the data vendor(s) has (have) granted the end user permission to redistribute the Geodata, please use proper proprietary or copyright attribution for the various data vendor(s), and provide the associated metadata file(s) with the Geodata. In compliance with FGDC metadata standards, ESRI has attempted to practice proper metadata methodologies by providing any data source information, descriptions, and file names to assist in this effort. </rights>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" maxy="5539470.84741500020027161" minz="0" maxx="2261382.96078199986368418" crs="EPSG:4326" miny="3010644.31469999998807907" minx="-1863812.37376899993978441"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" startExpression="" endExpression="" durationField="" fixedDuration="0" endField="" durationUnit="min" startField="" mode="0" limitMode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" enableorderby="0" type="singleSymbol" referencescale="-1" symbollevels="0">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="166,206,227,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="166,206,227,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" width="15" direction="0" minimumSize="0" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" barWidth="5" height="15" spacingUnit="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" spacing="5" diagramOrientation="Up" penColor="#000000" backgroundAlpha="255" sizeType="MM" rotationOffset="270" scaleDependency="Area" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="1" opacity="1" maxScaleDenominator="1e+08" lineSizeType="MM" enabled="0" penAlpha="255" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,7.875,-1,5,50,0,0,0,0,0" style=""/>
+          <axisSymbol>
+            <symbol name="" clip_to_extent="1" force_rhr="0" type="line" alpha="1">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" value="0" type="QString"/>
+                  <Option name="capstyle" value="square" type="QString"/>
+                  <Option name="customdash" value="5;2" type="QString"/>
+                  <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="customdash_unit" value="MM" type="QString"/>
+                  <Option name="dash_pattern_offset" value="0" type="QString"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                  <Option name="draw_inside_polygon" value="0" type="QString"/>
+                  <Option name="joinstyle" value="bevel" type="QString"/>
+                  <Option name="line_color" value="35,35,35,255" type="QString"/>
+                  <Option name="line_style" value="solid" type="QString"/>
+                  <Option name="line_width" value="0.26" type="QString"/>
+                  <Option name="line_width_unit" value="MM" type="QString"/>
+                  <Option name="offset" value="0" type="QString"/>
+                  <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="offset_unit" value="MM" type="QString"/>
+                  <Option name="ring_filter" value="0" type="QString"/>
+                  <Option name="trim_distance_end" value="0" type="QString"/>
+                  <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                  <Option name="trim_distance_start" value="0" type="QString"/>
+                  <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                  <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                  <Option name="use_custom_dash" value="0" type="QString"/>
+                  <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                </Option>
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="trim_distance_end" v="0"/>
+                <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_end_unit" v="MM"/>
+                <prop k="trim_distance_start" v="0"/>
+                <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_start_unit" v="MM"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" value="" type="QString"/>
+                    <Option name="properties"/>
+                    <Option name="type" value="collection" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" showAll="1" priority="0" obstacle="0" dist="0" placement="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" value="0" type="double"/>
+            <Option name="allowedGapsEnabled" value="false" type="bool"/>
+            <Option name="allowedGapsLayer" value="" type="QString"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="AREA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="LEGEND">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="AREA" index="0"/>
+        <alias name="" field="NAME" index="1"/>
+        <alias name="" field="LEGEND" index="2"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="AREA"/>
+        <default expression="" applyOnUpdate="0" field="NAME"/>
+        <default expression="" applyOnUpdate="0" field="LEGEND"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AREA" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="NAME" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="LEGEND" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="AREA" desc=""/>
+        <constraint exp="" field="NAME" desc=""/>
+        <constraint exp="" field="LEGEND" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="AREA" width="-1" type="field" hidden="0"/>
+          <column name="NAME" width="-1" type="field" hidden="0"/>
+          <column name="LEGEND" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="AREA" editable="1"/>
+        <field name="LEGEND" editable="1"/>
+        <field name="NAME" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="AREA" labelOnTop="0"/>
+        <field name="LEGEND" labelOnTop="0"/>
+        <field name="NAME" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="AREA" reuseLastValue="0"/>
+        <field name="LEGEND" reuseLastValue="0"/>
+        <field name="NAME" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" geometry="Polygon" symbologyReferenceScale="-1" wkbType="MultiPolygon" autoRefreshTime="0" simplifyAlgorithm="0" labelsEnabled="0" legendPlaceholderImage="" autoRefreshEnabled="0" minScale="100000000" readOnly="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingTol="1" maxScale="0" type="vector">
+      <extent>
+        <xmin>-2185454.41202292731031775</xmin>
+        <ymin>2818281.16597403353080153</ymin>
+        <xmax>2555950.26884076884016395</xmax>
+        <ymax>5869223.00212667137384415</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-128.70202311845673648</xmin>
+        <ymin>23.23667402863958387</ymin>
+        <xmax>-64.47183576233098279</xmax>
+        <ymax>52.97249531767882758</ymax>
+      </wgs84extent>
+      <id>states_visited_b345f428_b438_43f7_bf17_4f53d07d461e</id>
+      <datasource>./states_visited.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>states_visited</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / UTM zone 15N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 15N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-93,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 96°W and 90°W - onshore and offshore. Canada - Manitoba; Nunavut; Ontario. United States (USA) - Arkansas; Illinois; Iowa; Kansas; Louisiana; Michigan; Minnesota; Mississippi; Missouri; Nebraska; Oklahoma; Tennessee; Texas; Wisconsin."],BBOX[25.61,-96,84,-90]],ID["EPSG",26915]]</wkt>
+          <proj4>+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2292</srsid>
+          <srid>26915</srid>
+          <authid>EPSG:26915</authid>
+          <description>NAD83 / UTM zone 15N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>states</identifier>
+        <parentidentifier></parentidentifier>
+        <language>EN</language>
+        <type>dataset</type>
+        <title>states</title>
+        <abstract>U.S. States (Generalized) represents the fifty states and the District of Columbia of the United States.
+
+U.S. States (Generalized) is generalized to improve draw performance and be used effectively at a national level.
+
+Largest scale when displaying the data: 1:3,000,000. This is an ESRI dataset that was reprojected to UTM NAD 83 Zone 15N by Iowa DNR.</abstract>
+        <keywords vocabulary="gmd:topicCategory">
+          <keyword>polygon</keyword>
+        </keywords>
+        <contact>
+          <contactAddress>
+            <type>mailing and physical address</type>
+            <address>502 E. 9th St.</address>
+            <city>Des Moines</city>
+            <administrativearea>Iowa</administrativearea>
+            <postalcode>50319</postalcode>
+            <country>USA</country>
+          </contactAddress>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice>515-281-5843</voice>
+          <fax></fax>
+          <email>cam.conrad@dnr.state.ia.us</email>
+          <role>Point of contact</role>
+        </contact>
+        <links>
+          <link name="Shapefile" size="" mimeType="" description="" format="" type="Local Area Network" url="file://\\DGRLGM71\C$\Essential GIS\Data\National-Regional\states"/>
+        </links>
+        <fees></fees>
+        <constraints type="Access">Access granted to Licensee only.</constraints>
+        <rights>The data are provided by multiple, third party data vendors under license to ESRI for inclusion on ESRI Data &amp; Maps CD�ROMs for use with ESRI� software. Each data vendor has its own data licensing policies and may grant varying redistribution rights to end users. Please consult the redistribution rights below for this data set provided on ESRI Data &amp; Maps CD�ROMs. As used herein, �Geodata� shall mean any digital data set consisting of geographic data coordinates and associated attributes. The redistribution rights for this data set: Redistribution rights are granted by the data vendor for hard-copy renditions or static, electronic map images (e.g. .gif, .jpeg, etc.) that are plotted, printed, or publicly displayed with proper metadata and source/copyright attribution to the respective data vendor(s). Geodata is redistributable with a Value-Added Software Application developed by ESRI Business Partners on a royalty-free basis with proper metadata and source/copyright attribution to the respective data vendor(s). Geodata is redistributable without a Value-Added Software Application (i.e., adding the sample data to an existing, [non]commercial data set for redistribution) with proper metadata and source/copyright attribution to the respective data vendor(s). The terms and conditions below apply to all the data sets provided on the ESRI Data &amp; Maps CD�ROMs. Proprietary Rights and Copyright: Licensee acknowledges that the Data and Related Materials contain proprietary and confidential property of ESRI and its licensor(s). The Data and Related Materials are owned by ESRI and its licensor(s) and are protected by United States copyright laws and applicable international copyright treaties and/or conventions. Limited Warranty and Disclaimer: ESRI warrants that the media upon which the Data and Related Materials are provided will be free from defects in materials and workmanship under normal use and service for a period of ninety (90) days from the date of receipt. THE DATA AND RELATED MATERIALS ARE EXCLUDED FROM THE LIMITED WARRANTY, AND THE LICENSEE EXPRESSLY ACKNOWLEDGES THAT THE DATA CONTAINS SOME NONCONFORMITIES, DEFECTS, OR ERRORS. ESRI DOES NOT WARRANT THAT THE DATA WILL MEET LICENSEE'S NEEDS OR EXPECTATIONS; THAT THE USE OF THE DATA WILL BE UNINTERRUPTED; OR THAT ALL NONCONFORMITIES, DEFECTS, OR ERRORS CAN OR WILL BE CORRECTED. ESRI IS NOT INVITING RELIANCE ON THIS DATA, AND THE LICENSEE SHOULD ALWAYS VERIFY ACTUAL DATA. EXCEPT FOR THE LIMITED WARRANTY SET FORTH ABOVE, THE DATA AND RELATED MATERIALS CONTAINED THEREIN ARE PROVIDED "AS-IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Exclusive Remedy and Limitation of Liability: The entire liability of ESRI or its licensor(s) and Licensee's exclusive remedy shall be to terminate the Agreement upon Licensee returning the Data and Related Materials to ESRI with a copy of Licensee's invoice/receipt and ESRI returning the license fees paid to Licensee. IN NO EVENT SHALL ESRI AND/OR ITS LICENSOR(S) BE LIABLE FOR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOST PROFITS, LOST SALES, OR BUSINESS EXPENDITURES, INVESTMENTS, OR COMMITMENTS IN CONNECTION WITH ANY BUSINESS; LOSS OF ANY GOODWILL; OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT OR USE OF THE DATA AND RELATED MATERIALS, HOWEVER CAUSED, ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT ESRI OR ITS LICENSOR(S) HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY EXCLUSIVE REMEDY. Third Party Beneficiary: ESRI's licensor(s) has (have) authorized ESRI to (sub)distribute and (sub)license its (their) data as incorporated into the Data and Related Materials. As an intended third party beneficiary to this Agreement, the ESRI licensor(s) is (are) entitled to directly enforce, in its own name, the rights and obligations undertaken by the Licensee and to seek all legal and equitable remedies as are afforded to ESRI. In the event that the data vendor(s) has (have) granted the end user permission to redistribute the Geodata, please use proper proprietary or copyright attribution for the various data vendor(s), and provide the associated metadata file(s) with the Geodata. In compliance with FGDC metadata standards, ESRI has attempted to practice proper metadata methodologies by providing any data source information, descriptions, and file names to assist in this effort.</rights>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxz="0" dimensions="2" maxy="0" minz="0" maxx="0" crs="" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" startExpression="" endExpression="" durationField="" fixedDuration="0" endField="" durationUnit="min" startField="" mode="0" limitMode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 attr="visited" forceraster="0" enableorderby="0" type="categorizedSymbol" referencescale="-1" symbollevels="0">
+        <categories>
+          <category value="no" symbol="0" render="true" label="no"/>
+          <category value="yes" symbol="1" render="true" label="yes"/>
+        </categories>
+        <symbols>
+          <symbol name="0" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="178,223,138,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="178,223,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="1" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="255,127,0,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="255,127,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol name="0" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="178,223,138,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="178,223,138,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp name="[source]" type="randomcolors">
+          <Option/>
+        </colorramp>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option value="&quot;STATE_NAME&quot;" type="QString"/>
+          </Option>
+          <Option name="embeddedWidgets/count" value="0" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory minScaleDenominator="0" width="15" direction="0" minimumSize="0" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" barWidth="5" height="15" spacingUnit="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" spacing="5" diagramOrientation="Up" penColor="#000000" backgroundAlpha="255" sizeType="MM" rotationOffset="270" scaleDependency="Area" spacingUnitScale="3x:0,0,0,0,0,0" showAxis="1" opacity="1" maxScaleDenominator="1e+08" lineSizeType="MM" enabled="0" penAlpha="255" penWidth="0" lineSizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,7.875,-1,5,50,0,0,0,0,0" style=""/>
+          <axisSymbol>
+            <symbol name="" clip_to_extent="1" force_rhr="0" type="line" alpha="1">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+                <Option type="Map">
+                  <Option name="align_dash_pattern" value="0" type="QString"/>
+                  <Option name="capstyle" value="square" type="QString"/>
+                  <Option name="customdash" value="5;2" type="QString"/>
+                  <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="customdash_unit" value="MM" type="QString"/>
+                  <Option name="dash_pattern_offset" value="0" type="QString"/>
+                  <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                  <Option name="draw_inside_polygon" value="0" type="QString"/>
+                  <Option name="joinstyle" value="bevel" type="QString"/>
+                  <Option name="line_color" value="35,35,35,255" type="QString"/>
+                  <Option name="line_style" value="solid" type="QString"/>
+                  <Option name="line_width" value="0.26" type="QString"/>
+                  <Option name="line_width_unit" value="MM" type="QString"/>
+                  <Option name="offset" value="0" type="QString"/>
+                  <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="offset_unit" value="MM" type="QString"/>
+                  <Option name="ring_filter" value="0" type="QString"/>
+                  <Option name="trim_distance_end" value="0" type="QString"/>
+                  <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                  <Option name="trim_distance_start" value="0" type="QString"/>
+                  <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                  <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                  <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                  <Option name="use_custom_dash" value="0" type="QString"/>
+                  <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                </Option>
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="trim_distance_end" v="0"/>
+                <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_end_unit" v="MM"/>
+                <prop k="trim_distance_start" v="0"/>
+                <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="trim_distance_start_unit" v="MM"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option name="name" value="" type="QString"/>
+                    <Option name="properties"/>
+                    <Option name="type" value="collection" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" showAll="1" priority="0" obstacle="0" dist="0" placement="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" value="0" type="double"/>
+            <Option name="allowedGapsEnabled" value="false" type="bool"/>
+            <Option name="allowedGapsLayer" value="" type="QString"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="AREA">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="STATE_NAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="STATE_FIPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SUB_REGION">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="STATE_ABBR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POP2000">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POP2001">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="POP00_SQMI">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="WHITE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="BLACK">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AMERI_ES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ASIAN">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HAWN_PI">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="OTHER">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MULT_RACE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HISPANIC">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MALES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FEMALES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_UNDER5">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_5_17">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_18_21">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_22_29">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_30_39">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_40_49">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_50_64">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AGE_65_UP">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MED_AGE">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MED_AGE_M">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MED_AGE_F">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HOUSEHOLDS">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AVE_HH_SZ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HSEHLD_1_M">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HSEHLD_1_F">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MARHH_CHD">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MARHH_NO_C">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MHH_CHILD">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FHH_CHILD">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="FAMILIES">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AVE_FAM_SZ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HSE_UNITS">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="VACANT">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="OWNER_OCC">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="RENTER_OCC">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NO_FARMS97">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AVG_SIZE97">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="CROP_ACR97">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="AVG_SALE97">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="visited">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="AREA" index="0"/>
+        <alias name="" field="STATE_NAME" index="1"/>
+        <alias name="" field="STATE_FIPS" index="2"/>
+        <alias name="" field="SUB_REGION" index="3"/>
+        <alias name="" field="STATE_ABBR" index="4"/>
+        <alias name="" field="POP2000" index="5"/>
+        <alias name="" field="POP2001" index="6"/>
+        <alias name="" field="POP00_SQMI" index="7"/>
+        <alias name="" field="WHITE" index="8"/>
+        <alias name="" field="BLACK" index="9"/>
+        <alias name="" field="AMERI_ES" index="10"/>
+        <alias name="" field="ASIAN" index="11"/>
+        <alias name="" field="HAWN_PI" index="12"/>
+        <alias name="" field="OTHER" index="13"/>
+        <alias name="" field="MULT_RACE" index="14"/>
+        <alias name="" field="HISPANIC" index="15"/>
+        <alias name="" field="MALES" index="16"/>
+        <alias name="" field="FEMALES" index="17"/>
+        <alias name="" field="AGE_UNDER5" index="18"/>
+        <alias name="" field="AGE_5_17" index="19"/>
+        <alias name="" field="AGE_18_21" index="20"/>
+        <alias name="" field="AGE_22_29" index="21"/>
+        <alias name="" field="AGE_30_39" index="22"/>
+        <alias name="" field="AGE_40_49" index="23"/>
+        <alias name="" field="AGE_50_64" index="24"/>
+        <alias name="" field="AGE_65_UP" index="25"/>
+        <alias name="" field="MED_AGE" index="26"/>
+        <alias name="" field="MED_AGE_M" index="27"/>
+        <alias name="" field="MED_AGE_F" index="28"/>
+        <alias name="" field="HOUSEHOLDS" index="29"/>
+        <alias name="" field="AVE_HH_SZ" index="30"/>
+        <alias name="" field="HSEHLD_1_M" index="31"/>
+        <alias name="" field="HSEHLD_1_F" index="32"/>
+        <alias name="" field="MARHH_CHD" index="33"/>
+        <alias name="" field="MARHH_NO_C" index="34"/>
+        <alias name="" field="MHH_CHILD" index="35"/>
+        <alias name="" field="FHH_CHILD" index="36"/>
+        <alias name="" field="FAMILIES" index="37"/>
+        <alias name="" field="AVE_FAM_SZ" index="38"/>
+        <alias name="" field="HSE_UNITS" index="39"/>
+        <alias name="" field="VACANT" index="40"/>
+        <alias name="" field="OWNER_OCC" index="41"/>
+        <alias name="" field="RENTER_OCC" index="42"/>
+        <alias name="" field="NO_FARMS97" index="43"/>
+        <alias name="" field="AVG_SIZE97" index="44"/>
+        <alias name="" field="CROP_ACR97" index="45"/>
+        <alias name="" field="AVG_SALE97" index="46"/>
+        <alias name="" field="visited" index="47"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="AREA"/>
+        <default expression="" applyOnUpdate="0" field="STATE_NAME"/>
+        <default expression="" applyOnUpdate="0" field="STATE_FIPS"/>
+        <default expression="" applyOnUpdate="0" field="SUB_REGION"/>
+        <default expression="" applyOnUpdate="0" field="STATE_ABBR"/>
+        <default expression="" applyOnUpdate="0" field="POP2000"/>
+        <default expression="" applyOnUpdate="0" field="POP2001"/>
+        <default expression="" applyOnUpdate="0" field="POP00_SQMI"/>
+        <default expression="" applyOnUpdate="0" field="WHITE"/>
+        <default expression="" applyOnUpdate="0" field="BLACK"/>
+        <default expression="" applyOnUpdate="0" field="AMERI_ES"/>
+        <default expression="" applyOnUpdate="0" field="ASIAN"/>
+        <default expression="" applyOnUpdate="0" field="HAWN_PI"/>
+        <default expression="" applyOnUpdate="0" field="OTHER"/>
+        <default expression="" applyOnUpdate="0" field="MULT_RACE"/>
+        <default expression="" applyOnUpdate="0" field="HISPANIC"/>
+        <default expression="" applyOnUpdate="0" field="MALES"/>
+        <default expression="" applyOnUpdate="0" field="FEMALES"/>
+        <default expression="" applyOnUpdate="0" field="AGE_UNDER5"/>
+        <default expression="" applyOnUpdate="0" field="AGE_5_17"/>
+        <default expression="" applyOnUpdate="0" field="AGE_18_21"/>
+        <default expression="" applyOnUpdate="0" field="AGE_22_29"/>
+        <default expression="" applyOnUpdate="0" field="AGE_30_39"/>
+        <default expression="" applyOnUpdate="0" field="AGE_40_49"/>
+        <default expression="" applyOnUpdate="0" field="AGE_50_64"/>
+        <default expression="" applyOnUpdate="0" field="AGE_65_UP"/>
+        <default expression="" applyOnUpdate="0" field="MED_AGE"/>
+        <default expression="" applyOnUpdate="0" field="MED_AGE_M"/>
+        <default expression="" applyOnUpdate="0" field="MED_AGE_F"/>
+        <default expression="" applyOnUpdate="0" field="HOUSEHOLDS"/>
+        <default expression="" applyOnUpdate="0" field="AVE_HH_SZ"/>
+        <default expression="" applyOnUpdate="0" field="HSEHLD_1_M"/>
+        <default expression="" applyOnUpdate="0" field="HSEHLD_1_F"/>
+        <default expression="" applyOnUpdate="0" field="MARHH_CHD"/>
+        <default expression="" applyOnUpdate="0" field="MARHH_NO_C"/>
+        <default expression="" applyOnUpdate="0" field="MHH_CHILD"/>
+        <default expression="" applyOnUpdate="0" field="FHH_CHILD"/>
+        <default expression="" applyOnUpdate="0" field="FAMILIES"/>
+        <default expression="" applyOnUpdate="0" field="AVE_FAM_SZ"/>
+        <default expression="" applyOnUpdate="0" field="HSE_UNITS"/>
+        <default expression="" applyOnUpdate="0" field="VACANT"/>
+        <default expression="" applyOnUpdate="0" field="OWNER_OCC"/>
+        <default expression="" applyOnUpdate="0" field="RENTER_OCC"/>
+        <default expression="" applyOnUpdate="0" field="NO_FARMS97"/>
+        <default expression="" applyOnUpdate="0" field="AVG_SIZE97"/>
+        <default expression="" applyOnUpdate="0" field="CROP_ACR97"/>
+        <default expression="" applyOnUpdate="0" field="AVG_SALE97"/>
+        <default expression="" applyOnUpdate="0" field="visited"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AREA" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="STATE_NAME" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="STATE_FIPS" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="SUB_REGION" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="STATE_ABBR" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="POP2000" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="POP2001" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="POP00_SQMI" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="WHITE" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="BLACK" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AMERI_ES" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="ASIAN" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="HAWN_PI" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="OTHER" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MULT_RACE" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="HISPANIC" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MALES" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="FEMALES" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_UNDER5" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_5_17" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_18_21" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_22_29" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_30_39" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_40_49" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_50_64" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AGE_65_UP" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MED_AGE" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MED_AGE_M" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MED_AGE_F" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="HOUSEHOLDS" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AVE_HH_SZ" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="HSEHLD_1_M" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="HSEHLD_1_F" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MARHH_CHD" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MARHH_NO_C" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="MHH_CHILD" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="FHH_CHILD" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="FAMILIES" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AVE_FAM_SZ" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="HSE_UNITS" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="VACANT" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="OWNER_OCC" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="RENTER_OCC" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="NO_FARMS97" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AVG_SIZE97" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="CROP_ACR97" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="AVG_SALE97" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" field="visited" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="AREA" desc=""/>
+        <constraint exp="" field="STATE_NAME" desc=""/>
+        <constraint exp="" field="STATE_FIPS" desc=""/>
+        <constraint exp="" field="SUB_REGION" desc=""/>
+        <constraint exp="" field="STATE_ABBR" desc=""/>
+        <constraint exp="" field="POP2000" desc=""/>
+        <constraint exp="" field="POP2001" desc=""/>
+        <constraint exp="" field="POP00_SQMI" desc=""/>
+        <constraint exp="" field="WHITE" desc=""/>
+        <constraint exp="" field="BLACK" desc=""/>
+        <constraint exp="" field="AMERI_ES" desc=""/>
+        <constraint exp="" field="ASIAN" desc=""/>
+        <constraint exp="" field="HAWN_PI" desc=""/>
+        <constraint exp="" field="OTHER" desc=""/>
+        <constraint exp="" field="MULT_RACE" desc=""/>
+        <constraint exp="" field="HISPANIC" desc=""/>
+        <constraint exp="" field="MALES" desc=""/>
+        <constraint exp="" field="FEMALES" desc=""/>
+        <constraint exp="" field="AGE_UNDER5" desc=""/>
+        <constraint exp="" field="AGE_5_17" desc=""/>
+        <constraint exp="" field="AGE_18_21" desc=""/>
+        <constraint exp="" field="AGE_22_29" desc=""/>
+        <constraint exp="" field="AGE_30_39" desc=""/>
+        <constraint exp="" field="AGE_40_49" desc=""/>
+        <constraint exp="" field="AGE_50_64" desc=""/>
+        <constraint exp="" field="AGE_65_UP" desc=""/>
+        <constraint exp="" field="MED_AGE" desc=""/>
+        <constraint exp="" field="MED_AGE_M" desc=""/>
+        <constraint exp="" field="MED_AGE_F" desc=""/>
+        <constraint exp="" field="HOUSEHOLDS" desc=""/>
+        <constraint exp="" field="AVE_HH_SZ" desc=""/>
+        <constraint exp="" field="HSEHLD_1_M" desc=""/>
+        <constraint exp="" field="HSEHLD_1_F" desc=""/>
+        <constraint exp="" field="MARHH_CHD" desc=""/>
+        <constraint exp="" field="MARHH_NO_C" desc=""/>
+        <constraint exp="" field="MHH_CHILD" desc=""/>
+        <constraint exp="" field="FHH_CHILD" desc=""/>
+        <constraint exp="" field="FAMILIES" desc=""/>
+        <constraint exp="" field="AVE_FAM_SZ" desc=""/>
+        <constraint exp="" field="HSE_UNITS" desc=""/>
+        <constraint exp="" field="VACANT" desc=""/>
+        <constraint exp="" field="OWNER_OCC" desc=""/>
+        <constraint exp="" field="RENTER_OCC" desc=""/>
+        <constraint exp="" field="NO_FARMS97" desc=""/>
+        <constraint exp="" field="AVG_SIZE97" desc=""/>
+        <constraint exp="" field="CROP_ACR97" desc=""/>
+        <constraint exp="" field="AVG_SALE97" desc=""/>
+        <constraint exp="" field="visited" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="AREA" width="-1" type="field" hidden="0"/>
+          <column name="STATE_NAME" width="-1" type="field" hidden="0"/>
+          <column name="STATE_FIPS" width="-1" type="field" hidden="0"/>
+          <column name="SUB_REGION" width="-1" type="field" hidden="0"/>
+          <column name="STATE_ABBR" width="-1" type="field" hidden="0"/>
+          <column name="POP2000" width="-1" type="field" hidden="0"/>
+          <column name="POP2001" width="-1" type="field" hidden="0"/>
+          <column name="POP00_SQMI" width="-1" type="field" hidden="0"/>
+          <column name="WHITE" width="-1" type="field" hidden="0"/>
+          <column name="BLACK" width="-1" type="field" hidden="0"/>
+          <column name="AMERI_ES" width="-1" type="field" hidden="0"/>
+          <column name="ASIAN" width="-1" type="field" hidden="0"/>
+          <column name="HAWN_PI" width="-1" type="field" hidden="0"/>
+          <column name="OTHER" width="-1" type="field" hidden="0"/>
+          <column name="MULT_RACE" width="-1" type="field" hidden="0"/>
+          <column name="HISPANIC" width="-1" type="field" hidden="0"/>
+          <column name="MALES" width="-1" type="field" hidden="0"/>
+          <column name="FEMALES" width="-1" type="field" hidden="0"/>
+          <column name="AGE_UNDER5" width="-1" type="field" hidden="0"/>
+          <column name="AGE_5_17" width="-1" type="field" hidden="0"/>
+          <column name="AGE_18_21" width="-1" type="field" hidden="0"/>
+          <column name="AGE_22_29" width="-1" type="field" hidden="0"/>
+          <column name="AGE_30_39" width="-1" type="field" hidden="0"/>
+          <column name="AGE_40_49" width="-1" type="field" hidden="0"/>
+          <column name="AGE_50_64" width="-1" type="field" hidden="0"/>
+          <column name="AGE_65_UP" width="-1" type="field" hidden="0"/>
+          <column name="MED_AGE" width="-1" type="field" hidden="0"/>
+          <column name="MED_AGE_M" width="-1" type="field" hidden="0"/>
+          <column name="MED_AGE_F" width="-1" type="field" hidden="0"/>
+          <column name="HOUSEHOLDS" width="-1" type="field" hidden="0"/>
+          <column name="AVE_HH_SZ" width="-1" type="field" hidden="0"/>
+          <column name="HSEHLD_1_M" width="-1" type="field" hidden="0"/>
+          <column name="HSEHLD_1_F" width="-1" type="field" hidden="0"/>
+          <column name="MARHH_CHD" width="-1" type="field" hidden="0"/>
+          <column name="MARHH_NO_C" width="-1" type="field" hidden="0"/>
+          <column name="MHH_CHILD" width="-1" type="field" hidden="0"/>
+          <column name="FHH_CHILD" width="-1" type="field" hidden="0"/>
+          <column name="FAMILIES" width="-1" type="field" hidden="0"/>
+          <column name="AVE_FAM_SZ" width="-1" type="field" hidden="0"/>
+          <column name="HSE_UNITS" width="-1" type="field" hidden="0"/>
+          <column name="VACANT" width="-1" type="field" hidden="0"/>
+          <column name="OWNER_OCC" width="-1" type="field" hidden="0"/>
+          <column name="RENTER_OCC" width="-1" type="field" hidden="0"/>
+          <column name="NO_FARMS97" width="-1" type="field" hidden="0"/>
+          <column name="AVG_SIZE97" width="-1" type="field" hidden="0"/>
+          <column name="CROP_ACR97" width="-1" type="field" hidden="0"/>
+          <column name="AVG_SALE97" width="-1" type="field" hidden="0"/>
+          <column name="visited" width="-1" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="AGE_18_21" editable="1"/>
+        <field name="AGE_22_29" editable="1"/>
+        <field name="AGE_30_39" editable="1"/>
+        <field name="AGE_40_49" editable="1"/>
+        <field name="AGE_50_64" editable="1"/>
+        <field name="AGE_5_17" editable="1"/>
+        <field name="AGE_65_UP" editable="1"/>
+        <field name="AGE_UNDER5" editable="1"/>
+        <field name="AMERI_ES" editable="1"/>
+        <field name="AREA" editable="1"/>
+        <field name="ASIAN" editable="1"/>
+        <field name="AVE_FAM_SZ" editable="1"/>
+        <field name="AVE_HH_SZ" editable="1"/>
+        <field name="AVG_SALE97" editable="1"/>
+        <field name="AVG_SIZE97" editable="1"/>
+        <field name="BLACK" editable="1"/>
+        <field name="CROP_ACR97" editable="1"/>
+        <field name="FAMILIES" editable="1"/>
+        <field name="FEMALES" editable="1"/>
+        <field name="FHH_CHILD" editable="1"/>
+        <field name="HAWN_PI" editable="1"/>
+        <field name="HISPANIC" editable="1"/>
+        <field name="HOUSEHOLDS" editable="1"/>
+        <field name="HSEHLD_1_F" editable="1"/>
+        <field name="HSEHLD_1_M" editable="1"/>
+        <field name="HSE_UNITS" editable="1"/>
+        <field name="MALES" editable="1"/>
+        <field name="MARHH_CHD" editable="1"/>
+        <field name="MARHH_NO_C" editable="1"/>
+        <field name="MED_AGE" editable="1"/>
+        <field name="MED_AGE_F" editable="1"/>
+        <field name="MED_AGE_M" editable="1"/>
+        <field name="MHH_CHILD" editable="1"/>
+        <field name="MULT_RACE" editable="1"/>
+        <field name="NO_FARMS97" editable="1"/>
+        <field name="OTHER" editable="1"/>
+        <field name="OWNER_OCC" editable="1"/>
+        <field name="POP00_SQMI" editable="1"/>
+        <field name="POP2000" editable="1"/>
+        <field name="POP2001" editable="1"/>
+        <field name="RENTER_OCC" editable="1"/>
+        <field name="STATE_ABBR" editable="1"/>
+        <field name="STATE_FIPS" editable="1"/>
+        <field name="STATE_NAME" editable="1"/>
+        <field name="SUB_REGION" editable="1"/>
+        <field name="VACANT" editable="1"/>
+        <field name="WHITE" editable="1"/>
+        <field name="visited" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="AGE_18_21" labelOnTop="0"/>
+        <field name="AGE_22_29" labelOnTop="0"/>
+        <field name="AGE_30_39" labelOnTop="0"/>
+        <field name="AGE_40_49" labelOnTop="0"/>
+        <field name="AGE_50_64" labelOnTop="0"/>
+        <field name="AGE_5_17" labelOnTop="0"/>
+        <field name="AGE_65_UP" labelOnTop="0"/>
+        <field name="AGE_UNDER5" labelOnTop="0"/>
+        <field name="AMERI_ES" labelOnTop="0"/>
+        <field name="AREA" labelOnTop="0"/>
+        <field name="ASIAN" labelOnTop="0"/>
+        <field name="AVE_FAM_SZ" labelOnTop="0"/>
+        <field name="AVE_HH_SZ" labelOnTop="0"/>
+        <field name="AVG_SALE97" labelOnTop="0"/>
+        <field name="AVG_SIZE97" labelOnTop="0"/>
+        <field name="BLACK" labelOnTop="0"/>
+        <field name="CROP_ACR97" labelOnTop="0"/>
+        <field name="FAMILIES" labelOnTop="0"/>
+        <field name="FEMALES" labelOnTop="0"/>
+        <field name="FHH_CHILD" labelOnTop="0"/>
+        <field name="HAWN_PI" labelOnTop="0"/>
+        <field name="HISPANIC" labelOnTop="0"/>
+        <field name="HOUSEHOLDS" labelOnTop="0"/>
+        <field name="HSEHLD_1_F" labelOnTop="0"/>
+        <field name="HSEHLD_1_M" labelOnTop="0"/>
+        <field name="HSE_UNITS" labelOnTop="0"/>
+        <field name="MALES" labelOnTop="0"/>
+        <field name="MARHH_CHD" labelOnTop="0"/>
+        <field name="MARHH_NO_C" labelOnTop="0"/>
+        <field name="MED_AGE" labelOnTop="0"/>
+        <field name="MED_AGE_F" labelOnTop="0"/>
+        <field name="MED_AGE_M" labelOnTop="0"/>
+        <field name="MHH_CHILD" labelOnTop="0"/>
+        <field name="MULT_RACE" labelOnTop="0"/>
+        <field name="NO_FARMS97" labelOnTop="0"/>
+        <field name="OTHER" labelOnTop="0"/>
+        <field name="OWNER_OCC" labelOnTop="0"/>
+        <field name="POP00_SQMI" labelOnTop="0"/>
+        <field name="POP2000" labelOnTop="0"/>
+        <field name="POP2001" labelOnTop="0"/>
+        <field name="RENTER_OCC" labelOnTop="0"/>
+        <field name="STATE_ABBR" labelOnTop="0"/>
+        <field name="STATE_FIPS" labelOnTop="0"/>
+        <field name="STATE_NAME" labelOnTop="0"/>
+        <field name="SUB_REGION" labelOnTop="0"/>
+        <field name="VACANT" labelOnTop="0"/>
+        <field name="WHITE" labelOnTop="0"/>
+        <field name="visited" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="AGE_18_21" reuseLastValue="0"/>
+        <field name="AGE_22_29" reuseLastValue="0"/>
+        <field name="AGE_30_39" reuseLastValue="0"/>
+        <field name="AGE_40_49" reuseLastValue="0"/>
+        <field name="AGE_50_64" reuseLastValue="0"/>
+        <field name="AGE_5_17" reuseLastValue="0"/>
+        <field name="AGE_65_UP" reuseLastValue="0"/>
+        <field name="AGE_UNDER5" reuseLastValue="0"/>
+        <field name="AMERI_ES" reuseLastValue="0"/>
+        <field name="AREA" reuseLastValue="0"/>
+        <field name="ASIAN" reuseLastValue="0"/>
+        <field name="AVE_FAM_SZ" reuseLastValue="0"/>
+        <field name="AVE_HH_SZ" reuseLastValue="0"/>
+        <field name="AVG_SALE97" reuseLastValue="0"/>
+        <field name="AVG_SIZE97" reuseLastValue="0"/>
+        <field name="BLACK" reuseLastValue="0"/>
+        <field name="CROP_ACR97" reuseLastValue="0"/>
+        <field name="FAMILIES" reuseLastValue="0"/>
+        <field name="FEMALES" reuseLastValue="0"/>
+        <field name="FHH_CHILD" reuseLastValue="0"/>
+        <field name="HAWN_PI" reuseLastValue="0"/>
+        <field name="HISPANIC" reuseLastValue="0"/>
+        <field name="HOUSEHOLDS" reuseLastValue="0"/>
+        <field name="HSEHLD_1_F" reuseLastValue="0"/>
+        <field name="HSEHLD_1_M" reuseLastValue="0"/>
+        <field name="HSE_UNITS" reuseLastValue="0"/>
+        <field name="MALES" reuseLastValue="0"/>
+        <field name="MARHH_CHD" reuseLastValue="0"/>
+        <field name="MARHH_NO_C" reuseLastValue="0"/>
+        <field name="MED_AGE" reuseLastValue="0"/>
+        <field name="MED_AGE_F" reuseLastValue="0"/>
+        <field name="MED_AGE_M" reuseLastValue="0"/>
+        <field name="MHH_CHILD" reuseLastValue="0"/>
+        <field name="MULT_RACE" reuseLastValue="0"/>
+        <field name="NO_FARMS97" reuseLastValue="0"/>
+        <field name="OTHER" reuseLastValue="0"/>
+        <field name="OWNER_OCC" reuseLastValue="0"/>
+        <field name="POP00_SQMI" reuseLastValue="0"/>
+        <field name="POP2000" reuseLastValue="0"/>
+        <field name="POP2001" reuseLastValue="0"/>
+        <field name="RENTER_OCC" reuseLastValue="0"/>
+        <field name="STATE_ABBR" reuseLastValue="0"/>
+        <field name="STATE_FIPS" reuseLastValue="0"/>
+        <field name="STATE_NAME" reuseLastValue="0"/>
+        <field name="SUB_REGION" reuseLastValue="0"/>
+        <field name="VACANT" reuseLastValue="0"/>
+        <field name="WHITE" reuseLastValue="0"/>
+        <field name="visited" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"STATE_NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="boundary_p_v2_63e67194_9a54_45fe_9733_ce6412f46adf"/>
+    <layer id="lakes_2d76beba_ff11_4091_9a69_4a0aada683cf"/>
+    <layer id="LA_558___five_natural_places___natural_places_2_765e8aee_da54_404b_920f_621d8c77f27f"/>
+    <layer id="states_visited_b345f428_b438_43f7_bf17_4f53d07d461e"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">PARAMETER:6370997:6370997</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Maryam</author>
+    <creation>2022-01-25T21:55:43</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectTimeSettings cumulativeTemporalRange="0" timeStepUnit="h" timeStep="1" frameRate="1"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" value="" type="QChar"/>
+        <Option name="decimals" value="6" type="int"/>
+        <Option name="direction_format" value="0" type="int"/>
+        <Option name="rounding_type" value="0" type="int"/>
+        <Option name="show_plus" value="false" type="bool"/>
+        <Option name="show_thousand_separator" value="true" type="bool"/>
+        <Option name="show_trailing_zeros" value="false" type="bool"/>
+        <Option name="thousand_separator" value="" type="QChar"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
