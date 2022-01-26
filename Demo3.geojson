@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "type": "pont"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.8203125,
+          39.36827914916014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "ffff",
+        "marker-size": "medium",
+        "marker-symbol": "star"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7578125,
+          53.54030739150022
+        ]
+      }
+    }
+  ]
+}
