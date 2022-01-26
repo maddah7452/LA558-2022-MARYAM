@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#e10909",
+        "marker-color": "#ffff",
         "marker-size": "medium",
         "marker-symbol": "circle",
         "type": "pont"
@@ -20,7 +20,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
+        "marker-color": "ffff",
         "marker-size": "medium",
         "marker-symbol": "star"
       },
