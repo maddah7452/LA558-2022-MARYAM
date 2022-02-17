@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Basic HTML5 Template</title>
+    <meta name="description" content="A simple HTML5 Template for new projects.">
+    <meta name="author" content="LA 558 Project">
+
+    <!-- your icons here - optional... -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <!-- your styles here... -->
+    <link rel="stylesheet" href="" />
+
+    <style>
+    .highcharts-figure,
+.highcharts-data-table table {
+    min-width: 360px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+    </style>
+
+
+ <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+
+
+  </head>
+
+  <body>
+  <figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+        Basic line chart showing trends in Violent Crime rate of Chicago and US average . 
+    </p>
+</figure>
+
+
+    <!-- your JavScript content here as a link or within this document -->
+    <script src="js/scripts.js"></script>
+
+    <script>
+      Highcharts.chart('container', {
+
+    title: {
+        text: 'Crime rate in Chicago, IL, 2002-2019'
+    },
+
+    subtitle: {
+        text: 'Source: www.city-data.com'
+    },
+
+    yAxis: {
+        title: {
+            text: 'Crime Rate'
+        }
+    },
+
+    xAxis: {
+        accessibility: {
+            rangeDescription: 'Range: 2002 to 2019'
+        }
+    },
+
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 2002
+        }
+    },
+
+    series: [{
+        name: 'Violent Crime Rate, Chicago',
+        data: [531.4, 567.2, 618.2, 624.0, 504.4, 489.4,573.6, 572.5, 636.9, 685.0, 666.8, 672.3, 679.8, 601.2, 716.7, 741.2]
+    }, {
+        name: 'Violent Crime Rate, US Average',
+        data: [205.8, 208.2, 215.2, 216.3, 208.5, 200.7, 214.1, 223.2, 238.0, 252.4, 259.7, 264.1, 258.9, 256.0, 262.6,272.2
+]
+   
+   
+    }],
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 900
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+
+});
+
+    </script>
+
+  </body>
+
+</html>
