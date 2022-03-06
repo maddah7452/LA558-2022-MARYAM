@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+Income In The Past 12 Months Below Poverty Level"</title>
+     <h1>Income In The Past 12 Months Below Poverty Level 2015-2019</h1>
+<meta name="description" content="LA 558 GeoJSON into Leaflet v1 - 2022" />
+      
+      <style>
+      html, body, 
+
+#map { height: 500px; margin: 0; padding: 0; }
+
+
+.legend {
+    line-height: 10px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+}
+.info {
+    padding: 6px 8px;
+    font: 10px/20px Arial, Helvetica, sans-serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+
+.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+      
+      
+      
+      </style>
+      
+      
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+	  
+	<script src="https://profseeger.github.io/LVM-Code/classes/leaflet-ajax-gh-pages/dist/leaflet.ajax.min.js"></script>
+	  
+  </head>
+  <body>
+<div id="map"></div>
+      
+ <script>
+      
+  console.clear();
+
+var map = L.map('map').setView([42.2, -93], 7);
+
+// add an OpenStreetMap tile layer
+var osm = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 18
+}).addTo(map);
+
+
+//set color of marker
+function getColor(d) {
+  return d <= '1000' ? '#9F0410' :
+    d <= '2000' ? "#CF412E" :
+   d <= '4000' ? "#F57146" :
+    d <= '10000' ? "#FFA500" :
+  d <= '20000' ? "#008000" :
+    d <= '35000' ? "#14049F" :
+    "#000"; //white
+}
+
+
+function style(feature) {
+    return {
+       fillColor: getColor(feature.properties.estimate),
+       // fillColor: 'yellow',
+        weight: 1.5,
+        opacity: 0.5,
+        color: 'black',
+        dashArray: '2',
+        fillOpacity: 0.7
+    };
+}
+
+
+url = "https://raw.githubusercontent.com/maddah7452/LA558-2022-MARYAM/main/GIS/Assignment_2/map1-Docs/mydirectory/ACS_countyPovertyGIS.geojson";
+
+var geojsonLayer = new L.GeoJSON.AJAX(url , {
+	style: style,
+	onEachFeature: function (feature, layer) {
+    htmlText = "<strong>" + feature.properties.estimate + "</strong><br>" + 
+      "Estimated income below poverty level: " + feature.properties.estimate;
+    layer.bindPopup(htmlText);
+    
+		layer.bindTooltip(feature.properties.estimate);
+    }
+}).addTo(map);
+
+
+
+
+	
+//Create Legend
+
+var legend = L.control({position: 'bottomright'});
+  	//Possible values are 'topleft', 'topright', 'bottomleft' or 'bottomright'
+
+legend.onAdd = function(map) {
+    var div = L.DomUtil.create('div', 'info legend'),
+        grades = [0, 1000, 2000, 4000, 10000, 20000, 35000],
+        labels = [];
+  
+
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+            grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+    }
+
+    return div;
+};
+
+legend.addTo(map);    
+      
+      
+      
+      
+      </script>     
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  </body>
+</html>
