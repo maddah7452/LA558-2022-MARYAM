@@ -5,9 +5,11 @@
 # [Assign3](file:///C:/ISU_Fall%202021/LA558-2022-MARYAM/Assignments/Assignment_3/Final_Asignment/Assignment3.html)
 # [Assign4](file:///C:/ISU_Fall%202021/LA558-2022-MARYAM/Assignments/Assignment_4/Assignment4.html)
 # [Final project](https://public.tableau.com/app/profile/seyedehmaryam.maddahzad/viz/FinalProject-LA558-MaryamMaddahzad-StudyoncorrelationbetweensafetyandurbanforminChicago/Story1)
-# [Assign4](file:///C:/ISU_Fall%202021/LA558-2022-MARYAM/Assignments/Assignment_4/Assignment4.html)
 # Excersices
 # [Exce4b](https://github.com/maddah7452/LA558-2022-MARYAM/blob/main/Assignments/exercise4b/exercise4b-line.html)
-# [Exce5](https://github.com/maddah7452/LA558-2022-MARYAM/blob/main/Assignments/exercise4b/exercise4b-line.html)
+# [Exce5](https://github.com/maddah7452/LA558-2022-MARYAM/blob/main/Assignments/exce6-b/with%20water%20facility%20final/Iowa.geojson)
+# [Exce6](https://github.com/maddah7452/LA558-2022-MARYAM/blob/main/Assignments/exce6/iowa-Water%20Facility.geojson)
+# [Exce6-b](https://github.com/maddah7452/LA558-2022-MARYAM/blob/main/Assignments/exce6-b/with%20water%20facility%20final/Iowa.geojson)
+
 
 
